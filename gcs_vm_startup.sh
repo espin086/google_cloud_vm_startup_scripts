@@ -13,7 +13,7 @@ echo '*************************************************************************'
 echo 'INFO: installing anaconda'
 wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 sudo apt-get install bzip2
-sh Anaconda3-5.3.1-Linux-x86_64.sh -u
+sh Anaconda3-5.3.1-Linux-x86_64.sh 
 rm Anaconda3-5.3.1-Linux-x86_64.sh
 echo 'INFO: You may need type in the follwing to update the path of python to\
 	Anaconda version: export PATH="/home/jj_espinoza_la/anaconda3/bin:$PATH"'
