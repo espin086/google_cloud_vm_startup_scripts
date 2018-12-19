@@ -18,6 +18,9 @@ rm Anaconda3-5.3.1-Linux-x86_64.sh
 echo 'INFO: You may need type in the follwing to update the path of python to\
 	Anaconda version: export PATH="/home/jj_espinoza_la/anaconda3/bin:$PATH"'
 
+export PATH=~/anaconda3/bin:$PATH
+
+
 
 echo 'INFO: installing tree Linux package'
 sudo apt-get install tree
